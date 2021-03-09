@@ -15,3 +15,8 @@ You declare these constants, often at the top of a program, so that it’s conve
 - '$' + 2 <- an Implicit coercion of 2 to '2'.
 
 - Values that aren’t already of an expected type are often coerced to that type. The if statement expects a boolean, but if you pass it something that’s not already boolean, coercion will occur.
+
+- while do, the condition is checked on the first iteration.
+
+- do while, the condition is checked AFTER the first iteration.
+
