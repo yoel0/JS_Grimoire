@@ -20,3 +20,9 @@ You declare these constants, often at the top of a program, so that it’s conve
 
 - do while, the condition is checked AFTER the first iteration.
 
+- A for loops has three clauses: 
+  - The initialization clause (let i = 0;)
+  - The conditional test clause (i <= 9;)
+  - The update clause (i++)[i = i + 1]
+
+
