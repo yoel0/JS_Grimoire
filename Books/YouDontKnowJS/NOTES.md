@@ -33,3 +33,9 @@ You declare these constants, often at the top of a program, so that it’s conve
 for (let i=1, b=i; i<10 || b<10 ; i++,b++) { 
   console.log(i * b); 
 }; // This is Gucci Baebe.
+  - This is beneficial because rather then use nested for loops, we can achieve the same thing with one and one is always faster / more performant then two, Imagine that you have a mathimatical x function y is values and you need to draw a vector graphically - you can draw it via one loop.
+  - This is also a way that Graphics cards generate raster or vector graphics. 🔮
+  - Sometimes one for loop is more readable and self explanitory than two for loops.
+  - One loop can create better, cleaner code.
+  - Computers can manage any code but humans need READABLE code.
+  - Preformance is LESS IMPORTANT than readablity.
