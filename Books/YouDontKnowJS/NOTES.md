@@ -20,16 +20,16 @@ You declare these constants, often at the top of a program, so that it’s conve
 
 - do while, the condition is checked AFTER the first iteration.
 
-- A for loops has three clauses: 
+- A for loop has three clauses: 
   - The initialization clause (let i = 0;)
   - The conditional test clause (i <= 9;)
   - The update clause (i++) = [i = i + 1]
-  - The first one executes before the first iteration. 
+  - The First one executes before the first iteration. 
   - The Second one is a condition check on each itteration. 
-  - And then lastly we have the update clause executed after each iteration.
+  - And then Lastly we have the update clause executed after each iteration.
 
 **Note** that each of the clauses could contain many variables as presented under the example below:
 
 for (let i=1, b=i; i<10 || b<10 ; i++,b++) { 
-  console.log(i*b); 
-};
+  console.log(i * b); 
+}; // This is Gucci Baebe.
