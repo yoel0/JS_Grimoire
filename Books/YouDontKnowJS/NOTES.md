@@ -40,4 +40,4 @@ for (let i=1, b=i; i<10 || b<10; i++,b++) {
   - Computers can manage any code but humans need READABLE code.
   - Preformance is LESS IMPORTANT than readablity.
 
-- Left off on "Functions".
+- 
