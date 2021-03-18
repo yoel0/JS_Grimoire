@@ -31,7 +31,6 @@ const PHONE_PRICE_WITHOUT_TAX = 1199.9999;
 const PHONE_PRICE = (PHONE_PRICE_WITHOUT_TAX * (1 + TAX_RATE)).round(2);
 const ACCESORY_PRICE_WITHOUT_TAX = 49.49;
 const ACCESORY_PRICE = (ACCESORY_PRICE_WITHOUT_TAX * (1 + TAX_RATE)).round(2);
-
 let spendingThreshold = prompt('Please provide your spending threashold');
 const SPENDING_TRESHOLD = spendingThreshold;
 
