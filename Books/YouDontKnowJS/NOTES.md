@@ -1,5 +1,7 @@
 # Key Notes
 
+**CH.1**
+
 - To Open a Blank Browser Page
   - Enter in about:blank, to open a clean page for console.
 
@@ -39,6 +41,8 @@ for (let i=1, b=i; i<10 || b<10; i++,b++) {
   - One loop can create better, cleaner code.
   - Computers can manage any code but humans need READABLE code.
   - Preformance is LESS IMPORTANT than readablity.
+
+**CH.2**
 
 -  JavaScript has typed values, not typed variables.
 
@@ -82,3 +86,15 @@ for (let i=1, b=i; i<10 || b<10; i++,b++) {
 
 == | !=
 === | !==
+
+Take special note of the == and === comparison rules if you’re comparing two non-primitive values, like objects (including function and array). Those values are actually held by reference, both == and === comparisons will simply check whether the references match, not anything about the underlying values.
+
+// REFERENCE (More Readable, powerful seen in Java)
+const b = {a : null};
+function test (b){
+b.a = "test123";
+}
+test(b);
+console.log("B value is", b.a);
+
+- Left off 39.
