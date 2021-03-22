@@ -56,3 +56,29 @@ for (let i=1, b=i; i<10 || b<10; i++,b++) {
 
 - Only values have types in JavaScript, Variables are just simple containers for those values.
 
+- Coercion comes in two forms, explicit and implicit. Explicit coercion is that you can see from the code that a conversion from one type to another will occur, whereas implicit coercion is when the type conversion can happen as more of a non-obvious side effect of some other operation.
+
+- Falsy Values
+  - an "" empty string.
+  - 0, -0, NaN (Not a Number)
+  - null, undefined.
+  - false.
+
+- Truthy Values
+  - "Hello", not an empty string.
+  - 42, a positive number.
+  - true
+  - [], Arrays
+  - {}, Objects
+  - (), functions
+
+- ==, checks for value equality with coercion allowed.
+- ===, checks for both value equality without allowing coercion.
+
+
+0 === 1 <-- numbers because === will not allow coercion.
+
+0 == 1 <-- this can be coerced to false and true as coercion is allowed. A less strict comparator.
+
+== | !=
+=== | !==
