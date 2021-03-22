@@ -40,4 +40,16 @@ for (let i=1, b=i; i<10 || b<10; i++,b++) {
   - Computers can manage any code but humans need READABLE code.
   - Preformance is LESS IMPORTANT than readablity.
 
-- 
+-  JavaScript has typed values, not typed variables.
+
+- Built in Data-Types:
+  - String
+  - Number
+  - Boolean
+  - BigInt
+  - Null
+  - Undefined
+  - Symbol
+
+- Built in Structural-Types:
+  - Object
