@@ -53,3 +53,6 @@ for (let i=1, b=i; i<10 || b<10; i++,b++) {
 
 - Built in Structural-Types:
   - Object
+
+- Only values have types in JavaScript, Variables are just simple containers for those values.
+
