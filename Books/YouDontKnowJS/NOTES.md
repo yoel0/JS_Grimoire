@@ -97,4 +97,11 @@ b.a = "test123";
 test(b);
 console.log("B value is", b.a);
 
-- Left off 39.
+var a= 41;
+var b = "42";
+var c = "43";
+a < b; // true
+b < c; // true
+
+- What happens here? In ES5 specification, it says that if both values in the < comparison are strings, as it is with b < c, the comparison is made lexicographically (aka alphabetically like a dictionary).
+But if one or both is not a string, as it is with a < b, then both values are coerced to be numbers, and a typical numeric comparison occurs.
