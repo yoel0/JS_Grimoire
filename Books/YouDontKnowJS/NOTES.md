@@ -114,3 +114,9 @@ But if one or both is not a string, as it is with a < b, then both values are co
   - true
   - false
 etc. We cannot use "keywords" as variable Identifiers.
+
+- Using "use strict"; is considered good practice.
+  - It can be called globally or within a fn.
+  - Is good for many reasons around your code base in general.
+
+- Left off at 47.
