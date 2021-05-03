@@ -1,3 +1,7 @@
+// A closure is a wombocombo (PeanutButter and Jelly Sandwich) of a function combined together
+// with references to its surrounding state. Essentially, a closure gives you access to
+// an outer function’s scope from an inner function.
+
 // Original Example
 function makeFunc() {
   var name = 'Mozilla';
@@ -10,6 +14,8 @@ function makeFunc() {
 
 var myFunc = makeFunc();
 myFunc();
+
+
 
 // When using a closure in JavaScript, JavaScript remebers the state
 // of the outer function and  uses this state each time the function is ran.
