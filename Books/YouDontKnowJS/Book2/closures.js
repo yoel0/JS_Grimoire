@@ -1,6 +1,8 @@
 // A closure is a wombocombo (PeanutButter and Jelly Sandwich) of a function combined together
 // with references to its surrounding state. Essentially, a closure gives you access to
 // an outer function’s scope from an inner function.
+// The way I like to think of a closure is a universal programming concept,
+// that deals in memory. :)
 
 // Original Example
 function makeFunc() {
