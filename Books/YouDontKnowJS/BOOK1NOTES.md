@@ -118,5 +118,3 @@ etc. We cannot use "keywords" as variable Identifiers.
 - Using "use strict"; is considered good practice.
   - It can be called globally or within a fn.
   - Is good for many reasons around your code base in general.
-
-- Left off at 47.
